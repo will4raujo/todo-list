@@ -8,7 +8,7 @@ Este é um projeto de uma lista de tarefas (To-Do List) desenvolvido em React. O
  * Deletar uma tarefa.
 * Contador de tarefas criadas e concluídas.
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
  * React
  * TypeScript
  * CSS Modules
@@ -19,9 +19,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
  * Git
  * Node.js
  * npm
- * Instalação
 
-## Clone este repositório:
+## Instalação
+
+Clone este repositório:
 
 Copiar código
 ```sh
