@@ -1,0 +1,85 @@
+.taskWrapper {
+  max-width: 73.6rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  border-radius: 8px;
+
+  background: var(--gray-500);
+  border: solid 1px var(--gray-400);
+
+  color: var(--gray-100);
+}
+
+.taskWrapper + .taskWrapper {
+  margin-top: 1.2rem;
+}
+
+.taskWrapper label {
+  display: flex;
+  align-items: start;
+  flex: 1;
+  gap: 1.2rem;
+  min-height: 7.2rem;
+  max-width: 67.2rem;
+  padding: 1.6rem 0 1.6rem 1.6rem;
+  cursor: pointer;
+
+  overflow-wrap: anywhere;
+}
+
+.taskWrapper label > input[type="checkbox"] {
+  display: none;
+}
+
+.taskWrapper label > svg {
+  min-width: 1.745rem;
+  min-height: 1.745rem;
+  max-width: 1.745rem;
+  max-height: 1.745rem;
+}
+
+.taskWrapper button {
+  background: none;
+  border: none;
+  color: var(--gray-100);
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin: 1rem 1.6rem 0 0;
+  border-radius: 4px;
+  padding: .6rem .5rem 0 .5rem;
+}
+
+.taskWrapper button:hover {
+  color: var(--danger);
+  background: var(--gray-400);
+}
+
+.unchecked > svg {
+  color: var(--blue);
+}
+
+.unchecked > svg:hover {
+  color: var(--blue);
+  fill: var(--blue-dark);
+  opacity: 0.5;
+}
+
+.checked {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.checked > svg {
+  color: var(--gray-100);
+}
+
+.checked > svg circle{
+  color: var(--purple-dark);
+  fill: var(--purple-dark);
+}
+
+.checked > svg circle:hover {
+  color: var(--purple);
+  fill: var(--purple-dark);
+}
